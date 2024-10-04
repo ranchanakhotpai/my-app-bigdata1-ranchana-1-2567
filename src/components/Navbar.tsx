@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <div className="flex justify-center ">
-        <div className="self-center top-0 w-full max-w-7xl shadow-lg p-3 mb-5 bg-body rounded ">
+        <div className="self-center top-0 w-full max-w-7xl shadow-lg p-3 mb-5 bg-body rounded  bg-purple-300">
           <div className="flex justify-end items-center text-gray-700">
             {/* <div className="mx-2 my-4 ">
               <ion-icon
@@ -13,31 +13,31 @@ export default function Navbar() {
               ></ion-icon>
             </div> */}
             <ul className="hidden md:flex items-center text-[18px] font-semibold pr-10">
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/">หลักสูตรรัฐประศาสนศาสตร์</a>
               </li>
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/">หน้าหลัก</a>
               </li>
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/about">เกี่ยวกับ</a>
               </li>
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/ai">AI ตรวจวินิจฉัยโรค</a>
               </li>
               {/* <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">การประเมินนโยบายสาธารณะ</a>
               </li> */}
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="/evaluation"> การประเมินนโยบายสาธารณะ</a>
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+                <a href="/productlist"> การประเมินนโยบายสาธารณะ</a>
               </li>
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/chatgpt"> ChatGPT</a>
               </li>
               {/* <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ทีมงาน</a>
               </li> */}
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ติดต่อ</a>
               </li>
               <li className="text-blue-600 hover:text-white hover:bg-blue-600 mx-4 my-1 border-2 border-blue-600 px-2 rounded-2xl ">

@@ -1,10 +1,10 @@
-import Chatgpt from "@/components/Chatgpt";
+import Mainconnect from "@/components/Mainconnect";
 import React from "react";
 
 export default function page() {
   return (
     <div>
-      <Chatgpt />
+      <Mainconnect />
     </div>
   );
 }

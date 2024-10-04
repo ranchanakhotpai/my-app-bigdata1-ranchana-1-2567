@@ -1,10 +1,10 @@
-import Chatgpt from "@/components/Chatgpt";
+import Strategy6 from "@/components/Mainconnect/Strategy6";
 import React from "react";
 
 export default function page() {
   return (
     <div>
-      <Chatgpt />
+      <Strategy6 />
     </div>
   );
 }
